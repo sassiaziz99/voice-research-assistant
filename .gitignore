@@ -1,0 +1,10 @@
+@'
+.env
+__pycache__/
+*.pyc
+venv/
+.venv/
+audio_samples/*.wav
+audio_samples/*.mp3
+.DS_Store
+'@ | Set-Content -Path .gitignore -Encoding utf8
